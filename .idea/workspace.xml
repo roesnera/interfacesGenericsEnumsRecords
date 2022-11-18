@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663666a5-bdb2-40fc-9de8-4b3136358bf2" name="Changes" comment="Adds interfaces, enums, and fills out demo file a little bit more.">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/enums/MyBreeds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/enums/MySpecies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Breed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Species.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="663666a5-bdb2-40fc-9de8-4b3136358bf2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/enums/Enum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Interface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/records/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/records/Record.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +41,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
@@ -70,8 +52,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668783210431</updated>
-      <workItem from="1668783211802" duration="3144000" />
+      <workItem from="1668783211802" duration="5371000" />
     </task>
+    <task id="LOCAL-00001" summary="Adds interfaces, enums, and fills out demo file a little bit more.">
+      <created>1668786371167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668786371167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
