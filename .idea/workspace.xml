@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663666a5-bdb2-40fc-9de8-4b3136358bf2" name="Changes" comment="" />
+    <list default="true" id="663666a5-bdb2-40fc-9de8-4b3136358bf2" name="Changes" comment="Adds interfaces, enums, and fills out demo file a little bit more.">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/enums/MyBreeds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/enums/MySpecies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Breed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Species.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/enums/Enum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/records/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/records/Record.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="= &lt;adam.roesner@generation.org&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hj0VN3Ol7TIYb7dKKSl1EgmJs1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,6 +58,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
@@ -31,7 +70,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668783210431</updated>
+      <workItem from="1668783211802" duration="3144000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adds interfaces, enums, and fills out demo file a little bit more." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds interfaces, enums, and fills out demo file a little bit more." />
   </component>
 </project>
