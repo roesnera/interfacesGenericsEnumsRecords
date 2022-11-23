@@ -15,4 +15,5 @@ public class Animal extends Life {
     public String makeSound() {
         return "Animals make many different noises . . .";
     }
+
 }

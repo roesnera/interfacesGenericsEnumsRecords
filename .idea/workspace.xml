@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663666a5-bdb2-40fc-9de8-4b3136358bf2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test/com/example/aaroe/life/FlowerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Breed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Breed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Species.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Species.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfacesGenericsEnumsRecords.iml" beforeDir="false" afterPath="$PROJECT_DIR$/interfacesGenericsEnumsRecords.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +24,7 @@
         <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,6 +33,11 @@
       <list>
         <option value="= &lt;adam.roesner@generation.org&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -47,15 +50,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aaroe/IdeaProjects/JavaIntro4Debrief&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/aaroe/IdeaProjects/JavaIntro4Debrief",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.aaroe.life" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FlowerTest.attractBees">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.aaroe.Demo" />
+      <module name="interfacesGenericsEnumsRecords" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aaroe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowerTest.attractBees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfacesGenericsEnumsRecords" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aaroe.life.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aaroe.life" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aaroe.life.FlowerTest" />
+      <option name="METHOD_NAME" value="attractBees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FlowerTest.attractBees" />
+        <item itemvalue="Application.Demo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +124,7 @@
       <workItem from="1668783211802" duration="8477000" />
       <workItem from="1669037636755" duration="9496000" />
       <workItem from="1669140924252" duration="755000" />
-      <workItem from="1669221484048" duration="493000" />
+      <workItem from="1669221484048" duration="4804000" />
     </task>
     <task id="LOCAL-00001" summary="Adds interfaces, enums, and fills out demo file a little bit more.">
       <created>1668786371167</created>
@@ -83,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668796985011</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactors code for the purposes of testing">
+      <created>1669222063942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669222063942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +156,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adds interfaces, enums, and fills out demo file a little bit more." />
     <MESSAGE value="Rounds out demo file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rounds out demo file" />
+    <MESSAGE value="Refactors code for the purposes of testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactors code for the purposes of testing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/aaroe/Demo.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
