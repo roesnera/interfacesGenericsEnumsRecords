@@ -1,6 +1,6 @@
 package com.example.aaroe.life;
 
-public class Animal extends Life{
+public class Animal extends Life {
 
 
     public Animal(String name) {
@@ -8,11 +8,11 @@ public class Animal extends Life{
     }
 
     @Override
-    public void respire(){
-        System.out.println("Taking in oxygen, releasing CO2 . . .");
+    public String respire(){
+        return "Taking in oxygen, releasing CO2 . . .";
     }
 
-    public void makeSound() {
-        System.out.println("Animals make many different noises . . .");
+    public String makeSound() {
+        return "Animals make many different noises . . .";
     }
 }

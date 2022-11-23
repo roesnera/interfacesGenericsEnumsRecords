@@ -16,17 +16,22 @@ public class Dog extends Animal implements Species, Breed {
     }
 
     @Override
-    public void makeSound() {
-        System.out.println("Woof! Woof!");
+    public String makeSound() {
+        return "Woof! Woof!";
     }
 
     @Override
-    public void shareBreed() {
-        System.out.println("I am a "+this.breed);
+    public String shareBreed() {
+        return "I am a "+this.breed;
     }
 
     @Override
-    public void shareSpecies() {
-        System.out.println("I am a "+this.species);
+    public String shareSpecies() {
+        return "I am a "+this.species;
+    }
+
+    @Override
+    public String shareLifeCycle() {
+        return "I am born in a litter with my siblings!";
     }
 }

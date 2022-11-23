@@ -1,9 +1,7 @@
 package com.example.aaroe;
 
-import com.example.aaroe.enums.MyBreeds;
-import com.example.aaroe.enums.MySpecies;
-import com.example.aaroe.interfaces.Breed;
-import com.example.aaroe.interfaces.Species;
+import com.example.aaroe.enums.*;
+import com.example.aaroe.interfaces.*;
 import com.example.aaroe.life.*;
 
 import java.util.ArrayList;
@@ -58,32 +56,33 @@ public class Demo {
         System.out.println("All my living things and their methods");
         for(Life thing: livingThings){
             System.out.println("Hi I'm "+thing.getName());
-            thing.metabolizeEnergySource();
-            thing.respire();
+            System.out.println(thing.metabolizeEnergySource());
+            System.out.println(thing.respire());
         }
         System.out.println("-----------------------------------------------------------");
         System.out.println("All my animals and their methods");
         for(Animal animal: animals){
-            animal.makeSound();
-            animal.respire();
+            System.out.println(animal.makeSound());
+            System.out.println(animal.respire());
         }
 
         System.out.println("-----------------------------------------------------------");
         System.out.println("All my plants and their methods");
         for(Plant plant: plants){
-            plant.respire();
+            System.out.println(plant.respire());
         }
 
         System.out.println("-----------------------------------------------------------");
         System.out.println("All classes that implement the breed interface");
         for(Breed breed: catsNDogs){
-            breed.shareBreed();
+            System.out.println(breed.shareBreed());
         }
 
         System.out.println("-----------------------------------------------------------");
         System.out.println("All classes that implement the species interface");
         for(Species species1: species){
-            species1.shareSpecies();
+            System.out.println(species1.shareSpecies());
+            System.out.println(species1.shareLifeCycle());
         }
     }
 }

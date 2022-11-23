@@ -4,6 +4,16 @@
     <list default="true" id="663666a5-bdb2-40fc-9de8-4b3136358bf2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Breed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Breed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Species.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Species.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aaroe/IdeaProjects/JavaIntro4Debrief&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +64,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668783210431</updated>
-      <workItem from="1668783211802" duration="5371000" />
+      <workItem from="1668783211802" duration="8477000" />
+      <workItem from="1669037636755" duration="9496000" />
+      <workItem from="1669140924252" duration="755000" />
+      <workItem from="1669221484048" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="Adds interfaces, enums, and fills out demo file a little bit more.">
       <created>1668786371167</created>
@@ -61,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668786371167</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rounds out demo file">
+      <created>1668796985011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668796985011</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adds interfaces, enums, and fills out demo file a little bit more." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds interfaces, enums, and fills out demo file a little bit more." />
+    <MESSAGE value="Rounds out demo file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rounds out demo file" />
   </component>
 </project>

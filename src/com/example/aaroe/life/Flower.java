@@ -12,12 +12,17 @@ public class Flower extends Plant implements Species {
         this.species = species;
     }
 
-    public void attractBees() {
-        System.out.println("Come here you cute lil buggers!");
+    public String attractBees() {
+        return "Come here you cute lil buggers!";
     }
 
     @Override
-    public void shareSpecies() {
-        System.out.println("I am a "+this.species);
+    public String shareSpecies() {
+        return "I am a "+this.species;
+    }
+
+    @Override
+    public String shareLifeCycle() {
+        return "I gestate from a wee little seed in the dirt . . .";
     }
 }

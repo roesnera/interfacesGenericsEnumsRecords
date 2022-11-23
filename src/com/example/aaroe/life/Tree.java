@@ -15,14 +15,22 @@ public class Tree extends Plant implements Species {
     }
 
     // Meant to age the tree by a decade
-    public void growOlder(){
+    public String growOlder(){
         this.rings++;
-        System.out.println("Another decade older, another decade wiser.");
+        return "Another decade older, another decade wiser.";
     }
 
+    public int getRings() {
+        return rings;
+    }
 
     @Override
-    public void shareSpecies() {
-        System.out.println("I am a "+this.species);
+    public String shareSpecies() {
+        return "I am a "+this.species;
+    }
+
+    @Override
+    public String shareLifeCycle() {
+        return "I gestate from a wee little seed in the dirt and then grow tall and mighty . . .";
     }
 }

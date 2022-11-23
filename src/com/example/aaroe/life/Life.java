@@ -14,10 +14,10 @@ public abstract class Life {
     }
 
     // All life must metabolize some energy source
-    public void metabolizeEnergySource(){
-        System.out.println("Feeling more energetic . . .");
+    public String metabolizeEnergySource(){
+        return "Feeling more energetic . . .";
     }
 
     // All life respires in its own unique way
-    public abstract void respire();
+    public abstract String respire();
 }
