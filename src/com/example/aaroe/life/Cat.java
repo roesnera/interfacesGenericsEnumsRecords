@@ -17,6 +17,16 @@ public class Cat implements Animal, Species, Breed, Life {
     }
 
     @Override
+    public String getName() {
+        return name;
+    }
+
+    // All life must metabolize some energy source
+    public void metabolizeEnergySource(){
+        System.out.println("Feeling more energetic . . .");
+    }
+
+    @Override
     public void makeSound() {
         System.out.println("Meow!");
     }

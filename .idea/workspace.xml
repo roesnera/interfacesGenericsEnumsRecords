@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663666a5-bdb2-40fc-9de8-4b3136358bf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Life.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Plant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668786371167</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rewrites to use no class-based-inheritance">
+      <created>1683908280286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683908280286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adds interfaces, enums, and fills out demo file a little bit more." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds interfaces, enums, and fills out demo file a little bit more." />
+    <MESSAGE value="Rewrites to use no class-based-inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewrites to use no class-based-inheritance" />
   </component>
 </project>

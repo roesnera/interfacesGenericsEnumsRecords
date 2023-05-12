@@ -2,9 +2,10 @@ package com.example.aaroe.life;
 
 import com.example.aaroe.enums.MySpecies;
 import com.example.aaroe.interfaces.Life;
+import com.example.aaroe.interfaces.Plant;
 import com.example.aaroe.interfaces.Species;
 
-public class Tree implements Life, Species {
+public class Tree implements Life, Species, Plant {
 
     private int rings;
     private final MySpecies species;
@@ -17,10 +18,21 @@ public class Tree implements Life, Species {
         this.species = species;
     }
 
+    @Override
+    public String getName() {
+        return name;
+    }
+
     // Meant to age the tree by a decade
     public void growOlder(){
         this.rings++;
         System.out.println("Another decade older, another decade wiser.");
+    }
+
+
+    // All life must metabolize some energy source
+    public void metabolizeEnergySource(){
+        System.out.println("Feeling more energetic . . .");
     }
 
 

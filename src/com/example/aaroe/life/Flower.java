@@ -1,10 +1,11 @@
 package com.example.aaroe.life;
 
 import com.example.aaroe.enums.MySpecies;
+import com.example.aaroe.interfaces.Plant;
 import com.example.aaroe.interfaces.Species;
 import com.example.aaroe.interfaces.Life;
 
-public class Flower implements Life, Species {
+public class Flower implements Life, Species, Plant {
 
     private final MySpecies species;
 
@@ -13,6 +14,11 @@ public class Flower implements Life, Species {
     public Flower(String name, MySpecies species) {
         this.name = name;
         this.species = species;
+    }
+
+    // All life must metabolize some energy source
+    public void metabolizeEnergySource(){
+        System.out.println("Feeling more energetic . . .");
     }
 
     @Override

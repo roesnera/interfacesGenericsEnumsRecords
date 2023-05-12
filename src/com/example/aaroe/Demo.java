@@ -20,28 +20,20 @@ public class Demo {
 
 
         // Instances of all non-abstract classes
-        Animal firstAnimal = new Animal("Original Animal");
-        Plant oldPlant = new Plant("Real old plant");
-        Fungus spaceShroom = new Fungus("Mushroom from space!");
         Dog fido = new Dog("Fido", MyBreeds.TERRIER, MySpecies.CANINE);
         Cat kiki = new Cat("Kiki", MyBreeds.CALICO, MySpecies.FELINE);
         Flower rosey = new Flower("Rosey", MySpecies.ROSE);
         Tree red = new Tree("Ol Red", 10, MySpecies.REDOAK);
 
         // Section for adding all appropriate instances to their respective arraylists
-        livingThings.add(firstAnimal);
-        livingThings.add(oldPlant);
-        livingThings.add(spaceShroom);
         livingThings.add(fido);
         livingThings.add(kiki);
         livingThings.add(rosey);
         livingThings.add(red);
 
-        animals.add(firstAnimal);
         animals.add(fido);
         animals.add(kiki);
 
-        plants.add(oldPlant);
         plants.add(rosey);
         plants.add(red);
 
@@ -64,13 +56,6 @@ public class Demo {
         System.out.println("All my animals and their methods");
         for(Animal animal: animals){
             animal.makeSound();
-            animal.respire();
-        }
-
-        System.out.println("-----------------------------------------------------------");
-        System.out.println("All my plants and their methods");
-        for(Plant plant: plants){
-            plant.respire();
         }
 
         System.out.println("-----------------------------------------------------------");

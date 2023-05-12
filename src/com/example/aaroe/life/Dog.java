@@ -20,6 +20,15 @@ public class Dog implements Life, Animal, Species, Breed {
     }
 
     @Override
+    public String getName() {
+        return name;
+    }
+
+    // All life must metabolize some energy source
+    public void metabolizeEnergySource(){
+        System.out.println("Feeling more energetic . . .");
+    }
+    @Override
     public void makeSound() {
         System.out.println("Woof! Woof!");
     }
