@@ -40,4 +40,9 @@ public class Cat implements Animal, Species, Breed, Life {
     public void shareSpecies() {
         System.out.println("I am a "+this.species);
     }
+
+    @Override
+    public void respire(){
+        System.out.println("Taking in oxygen, releasing CO2 . . .");
+    }
 }

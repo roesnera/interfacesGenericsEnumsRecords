@@ -42,4 +42,9 @@ public class Dog implements Life, Animal, Species, Breed {
     public void shareSpecies() {
         System.out.println("I am a "+this.species);
     }
+
+    @Override
+    public void respire(){
+        System.out.println("Taking in oxygen, releasing CO2 . . .");
+    }
 }

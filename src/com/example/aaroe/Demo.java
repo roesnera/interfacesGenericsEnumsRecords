@@ -1,7 +1,6 @@
 package com.example.aaroe;
 
-import com.example.aaroe.enums.MyBreeds;
-import com.example.aaroe.enums.MySpecies;
+import com.example.aaroe.enums.*;
 import com.example.aaroe.interfaces.*;
 import com.example.aaroe.life.*;
 
