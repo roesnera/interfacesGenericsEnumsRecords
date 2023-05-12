@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663666a5-bdb2-40fc-9de8-4b3136358bf2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Fungus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Life.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

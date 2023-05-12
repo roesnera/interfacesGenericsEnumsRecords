@@ -2,8 +2,6 @@ package com.example.aaroe.interfaces;
 
 public interface Life {
 
-
-
     String getName();
 
     // All life must metabolize some energy source
