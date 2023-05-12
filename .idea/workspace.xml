@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663666a5-bdb2-40fc-9de8-4b3136358bf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/example/aaroe/life/FlowerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfacesGenericsEnumsRecords.iml" beforeDir="false" afterPath="$PROJECT_DIR$/interfacesGenericsEnumsRecords.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Species.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/interfaces/Species.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Life.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Plant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/aaroe/life/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="testing" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +45,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hj0VN3Ol7TIYb7dKKSl1EgmJs1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +63,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/aaroe/IdeaProjects/JavaIntro4Debrief",
+    "last_opened_file_path": "C:/Users/aaroe/IdeaProjects/interfacesGenericsEnumsRecords",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -76,21 +78,8 @@
       <recent name="com.example.aaroe.life" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlowerTest.attractBees">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.aaroe.Demo" />
-      <module name="interfacesGenericsEnumsRecords" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.aaroe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlowerTest.attractBees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="AnimalTest.equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interfacesGenericsEnumsRecords" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +88,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.aaroe.life" />
-      <option name="MAIN_CLASS_NAME" value="com.example.aaroe.life.FlowerTest" />
-      <option name="METHOD_NAME" value="attractBees" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aaroe.life.AnimalTest" />
+      <option name="METHOD_NAME" value="equals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest.respire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfacesGenericsEnumsRecords" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aaroe.life.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aaroe.life" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aaroe.life.AnimalTest" />
+      <option name="METHOD_NAME" value="respire" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlantTest.equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfacesGenericsEnumsRecords" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aaroe.life.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aaroe.life" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aaroe.life.PlantTest" />
+      <option name="METHOD_NAME" value="equals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlantTest.metabolizeEnergy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfacesGenericsEnumsRecords" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aaroe.life.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aaroe.life" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aaroe.life.PlantTest" />
+      <option name="METHOD_NAME" value="metabolizeEnergy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlantTest.respire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interfacesGenericsEnumsRecords" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aaroe.life.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aaroe.life" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aaroe.life.PlantTest" />
+      <option name="METHOD_NAME" value="respire" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,8 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FlowerTest.attractBees" />
-        <item itemvalue="Application.Demo" />
+        <item itemvalue="JUnit.PlantTest.equals" />
+        <item itemvalue="JUnit.PlantTest.metabolizeEnergy" />
+        <item itemvalue="JUnit.PlantTest.respire" />
+        <item itemvalue="JUnit.AnimalTest.equals" />
+        <item itemvalue="JUnit.AnimalTest.respire" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +180,9 @@
       <workItem from="1668783211802" duration="8477000" />
       <workItem from="1669037636755" duration="9496000" />
       <workItem from="1669140924252" duration="755000" />
-      <workItem from="1669221484048" duration="4804000" />
+      <workItem from="1669221484048" duration="10664000" />
+      <workItem from="1669588031681" duration="15000" />
+      <workItem from="1683905624193" duration="1665000" />
     </task>
     <task id="LOCAL-00001" summary="Adds interfaces, enums, and fills out demo file a little bit more.">
       <created>1668786371167</created>
@@ -147,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669222063942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adds .equals() and .hashCode() to all necessary classes">
+      <created>1669230181598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669230181598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,17 +222,7 @@
     <MESSAGE value="Adds interfaces, enums, and fills out demo file a little bit more." />
     <MESSAGE value="Rounds out demo file" />
     <MESSAGE value="Refactors code for the purposes of testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactors code for the purposes of testing" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/example/aaroe/Demo.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Adds .equals() and .hashCode() to all necessary classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds .equals() and .hashCode() to all necessary classes" />
   </component>
 </project>

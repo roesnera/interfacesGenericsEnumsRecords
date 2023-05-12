@@ -2,12 +2,10 @@ package com.example.aaroe.life;
 
 import com.example.aaroe.enums.MyBreeds;
 import com.example.aaroe.enums.MySpecies;
-import com.example.aaroe.interfaces.Breed;
-import com.example.aaroe.interfaces.Species;
 
 import java.util.Objects;
 
-public class Cat extends Animal implements Species, Breed {
+public class Cat extends Animal {
 
     private final MyBreeds breed;
     private final MySpecies species;

@@ -1,11 +1,10 @@
 package com.example.aaroe.life;
 
 import com.example.aaroe.enums.MySpecies;
-import com.example.aaroe.interfaces.Species;
 
 import java.util.Objects;
 
-public class Flower extends Plant implements Species {
+public class Flower extends Plant {
 
     private final MySpecies species;
 

@@ -1,11 +1,17 @@
 package com.example.aaroe.life;
 
-public class Animal extends Life {
+public abstract class Animal extends Life {
 
 
     public Animal(String name) {
         super(name);
     }
+
+    public abstract String shareBreed();
+
+    public abstract String shareSpecies();
+
+    public abstract String shareLifeCycle();
 
     @Override
     public String respire(){
