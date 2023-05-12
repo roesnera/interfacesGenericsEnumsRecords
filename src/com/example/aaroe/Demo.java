@@ -2,8 +2,7 @@ package com.example.aaroe;
 
 import com.example.aaroe.enums.MyBreeds;
 import com.example.aaroe.enums.MySpecies;
-import com.example.aaroe.interfaces.Breed;
-import com.example.aaroe.interfaces.Species;
+import com.example.aaroe.interfaces.*;
 import com.example.aaroe.life.*;
 
 import java.util.ArrayList;
