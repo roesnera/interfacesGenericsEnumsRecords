@@ -1,6 +1,6 @@
 package com.example.aaroe.life;
 
-public class Animal extends Life{
+public class Animal extends Life {
 
 
     public Animal(String name) {
